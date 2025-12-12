@@ -1,0 +1,26 @@
+body {
+  background: #121212;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #2c86da;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* deixa o ícone do menu visível em fundo claro */
+.navbar .navbar-toggler {
+  border-color: rgba(255,255,255,.7);
+}
+.navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
